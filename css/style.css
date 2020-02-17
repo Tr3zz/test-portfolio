@@ -1,6 +1,4 @@
-/* *{
-    border: 1px dashed red;
-} */
+@bg-green-dark:#22a6b3;
 
 body{
     position: relative;
@@ -195,6 +193,8 @@ body{
 }
 
 .projects{
+    width:100%;
+    padding-bottom: 130px;
     display: flex;
     flex-direction: column;
     color: #fff;
@@ -203,24 +203,32 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #22a6b3;
+
+}
+
+
+
+
+.projects-content{
+    text-align: center;
+    color:rgba(255,255,255, 0.5);
+
 }
 /* about me section */
 
 /* contact form */
 .in-touch{
     color: #fff;
-    padding: 30px;
     background-color: #22a6b3;
 
 }
 form{
     padding: 30px;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .contact-form{
-    width: 100%;
+    
     background-color: #22a6b3;
 }
 /* contact form */
